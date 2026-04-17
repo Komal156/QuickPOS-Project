@@ -37,3 +37,24 @@
         <img src="https://via.placeholder.com/800x400?text=QuickPOS+Software+Mockup" alt="POS Mockup" style="max-width: 100%; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
     </div>
 </section>
+\\\\\\\\\\\\\\\ Features section
+<section id="features" style="padding: 60px 10%; background: #fff;">
+    <h2 style="text-align: center; color: #2c3e50; margin-bottom: 40px;">Why Choose QuickPOS?</h2>
+    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; text-align: center;">
+        <div style="padding: 20px; border: 1px solid #eee; border-radius: 10px;">
+            <div style="font-size: 40px; margin-bottom: 10px;">📦</div>
+            <h3 style="color: #3498db;">Inventory</h3>
+            <p style="color: #7f8c8d;">Real-time stock tracking across all your store locations.</p>
+        </div>
+        <div style="padding: 20px; border: 1px solid #eee; border-radius: 10px;">
+            <div style="font-size: 40px; margin-bottom: 10px;">📊</div>
+            <h3 style="color: #3498db;">Analytics</h3>
+            <p style="color: #7f8c8d;">Deep insights into your daily sales and profit margins.</p>
+        </div>
+        <div style="padding: 20px; border: 1px solid #eee; border-radius: 10px;">
+            <div style="font-size: 40px; margin-bottom: 10px;">⚡</div>
+            <h3 style="color: #3498db;">Fast Setup</h3>
+            <p style="color: #7f8c8d;">Get up and running in minutes with easy integration.</p>
+        </div>
+    </div>
+</section>
