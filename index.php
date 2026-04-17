@@ -102,3 +102,12 @@
         <button type="submit" style="background: #2c3e50; color: white; padding: 10px 20px; border: none; cursor: pointer; width: 100%;">Send Message</button>
     </form>
 </section>
+\\\\\\\\\\\\\\\\\\\\footer
+<footer style="background: #2c3e50; color: white; padding: 40px 10%; text-align: center;">
+    <div>
+        <a href="#" style="color: white; margin: 0 10px;">Facebook</a>
+        <a href="#" style="color: white; margin: 0 10px;">Twitter</a>
+        <a href="#" style="color: white; margin: 0 10px;">LinkedIn</a>
+    </div>
+    <p style="margin-top: 20px;">&copy; 2024 QuickPOS System. All rights reserved.</p>
+</footer>
