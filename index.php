@@ -88,3 +88,17 @@
         </div>
     </div>
 </section>
+
+////////////contact section 
+<section id="contact" style="padding: 60px 10%; text-align: center;">
+    <h2>Contact Us</h2>
+    <form action="process.php" method="POST" style="max-width: 500px; margin: 0 auto; text-align: left;">
+        <label>Name:</label><br>
+        <input type="text" name="name" style="width: 100%; padding: 10px; margin: 10px 0;"><br>
+        <label>Email:</label><br>
+        <input type="email" name="email" style="width: 100%; padding: 10px; margin: 10px 0;"><br>
+        <label>Message:</label><br>
+        <textarea name="message" style="width: 100%; padding: 10px; margin: 10px 0;"></textarea><br>
+        <button type="submit" style="background: #2c3e50; color: white; padding: 10px 20px; border: none; cursor: pointer; width: 100%;">Send Message</button>
+    </form>
+</section>
