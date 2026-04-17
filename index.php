@@ -58,3 +58,33 @@
         </div>
     </div>
 </section>
+///////////////////////Pricing Section
+<section id="pricing" style="padding: 60px 10%; background: #f4f7f6; text-align: center;">
+    <h2 style="color: #2c3e50;">Simple Pricing for Everyone</h2>
+    <div style="display: flex; justify-content: center; gap: 20px; margin-top: 40px; flex-wrap: wrap;">
+        <div style="background: white; padding: 30px; border-radius: 10px; width: 250px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+            <h3>Basic</h3>
+            <p style="font-size: 24px; font-weight: bold;">$29/mo</p>
+            <ul style="list-style: none; padding: 0; color: #666;">
+                <li>1 Location</li>
+                <li>Standard Support</li>
+            </ul>
+        </div>
+        <div style="background: #3498db; color: white; padding: 30px; border-radius: 10px; width: 250px; transform: scale(1.05);">
+            <h3>Pro</h3>
+            <p style="font-size: 24px; font-weight: bold;">$79/mo</p>
+            <ul style="list-style: none; padding: 0;">
+                <li>5 Locations</li>
+                <li>Priority Support</li>
+            </ul>
+        </div>
+        <div style="background: white; padding: 30px; border-radius: 10px; width: 250px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+            <h3>Enterprise</h3>
+            <p style="font-size: 24px; font-weight: bold;">Custom</p>
+            <ul style="list-style: none; padding: 0; color: #666;">
+                <li>Unlimited Locations</li>
+                <li>24/7 Dedicated Manager</li>
+            </ul>
+        </div>
+    </div>
+</section>
