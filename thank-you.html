@@ -1,5 +1,111 @@
-<div style="text-align: center; margin-top: 100px; font-family: sans-serif;">
-    <h1>Thank You!</h1>
-    <p>Your message has been received. We will contact you shortly.</p>
-    <a href="index.php">Return to Home</a>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank You | QuickPOS</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --ink:    #0f0e0b;
+      --cream:  #faf8f3;
+      --gold:   #c9a84c;
+      --muted:  #6b6b60;
+      --border: #e2ded4;
+    }
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--cream);
+      color: var(--ink);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .checkmark {
+      width: 72px; height: 72px;
+      border-radius: 50%;
+      background: #f0ede4;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 32px;
+      margin: 0 auto 28px;
+      animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+    }
+
+    h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(2rem, 5vw, 3rem);
+      letter-spacing: -1px;
+      color: var(--ink);
+      margin-bottom: 16px;
+    }
+
+    p {
+      font-size: 16px;
+      color: var(--muted);
+      line-height: 1.7;
+      max-width: 420px;
+      margin: 0 auto 36px;
+    }
+
+    .btn-back {
+      display: inline-block;
+      background: var(--ink);
+      color: var(--cream);
+      text-decoration: none;
+      padding: 13px 28px;
+      border-radius: 8px;
+      font-size: 15px;
+      font-weight: 600;
+      transition: background 0.2s;
+    }
+    .btn-back:hover { background: #2a2a27; }
+
+    .logo {
+      position: absolute;
+      top: 28px; left: 50%;
+      transform: translateX(-50%);
+      font-family: 'DM Serif Display', serif;
+      font-size: 20px;
+      color: var(--ink);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .logo-dot {
+      width: 7px; height: 7px;
+      border-radius: 50%;
+      background: var(--gold);
+      display: inline-block;
+    }
+
+    @keyframes popIn {
+      from { opacity: 0; transform: scale(0.6); }
+      to   { opacity: 1; transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+
+  <a href="index.php" class="logo">
+    <span class="logo-dot"></span> QuickPOS
+  </a>
+
+  <div class="checkmark">✓</div>
+
+  <h1>Message Sent!</h1>
+  <p>
+    Thank you for reaching out. Our team will review your message and get back to you within one business day.
+  </p>
+
+  <a href="index.php" class="btn-back">← Back to QuickPOS</a>
+
+</body>
+</html>
