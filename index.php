@@ -1,1 +1,113 @@
-<?php echo "QuickPOS Landing Page"; ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickPOS | Smart Point of Sale</title>
+    <style>
+        body { font-family: sans-serif; margin: 0; padding: 0; }
+        header { display: flex; justify-content: space-between; align-items: center; padding: 20px 5%; background: #2c3e50; color: white; }
+        .logo { font-size: 24px; font-weight: bold; }
+        nav a { color: white; text-decoration: none; margin-left: 20px; }
+        .signup-btn { background: #27ae60; padding: 10px 20px; border-radius: 5px; border: none; color: white; cursor: pointer; }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">QuickPOS</div>
+    <nav>
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+        <button class="signup-btn">Sign Up</button>
+    </nav>
+</header>
+
+</body>
+</html>
+//////////////Hero section
+<section style="padding: 100px 10%; text-align: center; background: #f9f9f9;">
+    <h1 style="font-size: 3rem; color: #333;">The Last POS System You'll Ever Need</h1>
+    <p style="font-size: 1.2rem; color: #666;">Modern, fast, and easy to use for any business type.</p>
+    
+    <a href="#contact" style="display: inline-block; background: #28a745; color: white; padding: 15px 30px; border-radius: 5px; text-decoration: none; font-weight: bold; margin-top: 20px;">Get Started for Free</a>
+    
+    <div style="margin-top: 50px;">
+        <img src="https://via.placeholder.com/800x400?text=QuickPOS+Software+Mockup" alt="POS Mockup" style="max-width: 100%; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+    </div>
+</section>
+\\\\\\\\\\\\\\\ Features section
+<section id="features" style="padding: 60px 10%; background: #fff;">
+    <h2 style="text-align: center; color: #2c3e50; margin-bottom: 40px;">Why Choose QuickPOS?</h2>
+    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; text-align: center;">
+        <div style="padding: 20px; border: 1px solid #eee; border-radius: 10px;">
+            <div style="font-size: 40px; margin-bottom: 10px;">📦</div>
+            <h3 style="color: #3498db;">Inventory</h3>
+            <p style="color: #7f8c8d;">Real-time stock tracking across all your store locations.</p>
+        </div>
+        <div style="padding: 20px; border: 1px solid #eee; border-radius: 10px;">
+            <div style="font-size: 40px; margin-bottom: 10px;">📊</div>
+            <h3 style="color: #3498db;">Analytics</h3>
+            <p style="color: #7f8c8d;">Deep insights into your daily sales and profit margins.</p>
+        </div>
+        <div style="padding: 20px; border: 1px solid #eee; border-radius: 10px;">
+            <div style="font-size: 40px; margin-bottom: 10px;">⚡</div>
+            <h3 style="color: #3498db;">Fast Setup</h3>
+            <p style="color: #7f8c8d;">Get up and running in minutes with easy integration.</p>
+        </div>
+    </div>
+</section>
+///////////////////////Pricing Section
+<section id="pricing" style="padding: 60px 10%; background: #f4f7f6; text-align: center;">
+    <h2 style="color: #2c3e50;">Simple Pricing for Everyone</h2>
+    <div style="display: flex; justify-content: center; gap: 20px; margin-top: 40px; flex-wrap: wrap;">
+        <div style="background: white; padding: 30px; border-radius: 10px; width: 250px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+            <h3>Basic</h3>
+            <p style="font-size: 24px; font-weight: bold;">$29/mo</p>
+            <ul style="list-style: none; padding: 0; color: #666;">
+                <li>1 Location</li>
+                <li>Standard Support</li>
+            </ul>
+        </div>
+        <div style="background: #3498db; color: white; padding: 30px; border-radius: 10px; width: 250px; transform: scale(1.05);">
+            <h3>Pro</h3>
+            <p style="font-size: 24px; font-weight: bold;">$79/mo</p>
+            <ul style="list-style: none; padding: 0;">
+                <li>5 Locations</li>
+                <li>Priority Support</li>
+            </ul>
+        </div>
+        <div style="background: white; padding: 30px; border-radius: 10px; width: 250px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+            <h3>Enterprise</h3>
+            <p style="font-size: 24px; font-weight: bold;">Custom</p>
+            <ul style="list-style: none; padding: 0; color: #666;">
+                <li>Unlimited Locations</li>
+                <li>24/7 Dedicated Manager</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+////////////contact section 
+<section id="contact" style="padding: 60px 10%; text-align: center;">
+    <h2>Contact Us</h2>
+    <form action="process.php" method="POST" style="max-width: 500px; margin: 0 auto; text-align: left;">
+        <label>Name:</label><br>
+        <input type="text" name="name" style="width: 100%; padding: 10px; margin: 10px 0;"><br>
+        <label>Email:</label><br>
+        <input type="email" name="email" style="width: 100%; padding: 10px; margin: 10px 0;"><br>
+        <label>Message:</label><br>
+        <textarea name="message" style="width: 100%; padding: 10px; margin: 10px 0;"></textarea><br>
+        <button type="submit" style="background: #2c3e50; color: white; padding: 10px 20px; border: none; cursor: pointer; width: 100%;">Send Message</button>
+    </form>
+</section>
+\\\\\\\\\\\\\\\\\\\\footer
+<footer style="background: #2c3e50; color: white; padding: 40px 10%; text-align: center;">
+    <div>
+        <a href="#" style="color: white; margin: 0 10px;">Facebook</a>
+        <a href="#" style="color: white; margin: 0 10px;">Twitter</a>
+        <a href="#" style="color: white; margin: 0 10px;">LinkedIn</a>
+    </div>
+    <p style="margin-top: 20px;">&copy; 2024 QuickPOS System. All rights reserved.</p>
+</footer>
